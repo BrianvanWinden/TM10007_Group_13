@@ -12,5 +12,6 @@ setup(
         "brats",
         "hn",
         "adni"
+        "ecg"
     ],
 )
