@@ -4,7 +4,7 @@ from zipfile import ZipFile
 
 
 def load_data():
-    this_directory = os.path.dirname(os.path.abspath(_file_))
+    this_directory = os.path.dirname(os.path.abspath(__file__))
     zip_dir = os.path.join(this_directory, 'ecg_data.zip')
     zf = ZipFile(zip_dir, "r")
     zf.extractall(this_directory)
