@@ -162,7 +162,7 @@ def preprocessing_data(data, n_features=10):
 
 
 if __name__ == "__main__":
-    _, data = load_data()
+    data = load_data()
 
     x_train_trans, y_train, _, explained_variance, data_points, data_labels, x_train = preprocessing_data(data)
     # plot learning curves
